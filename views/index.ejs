@@ -34,7 +34,7 @@
 
         socket.on("message", (message)=>{
             const p = document.createElement('p');
-            p.classList.add("message"); // ✅ Common class for styling
+            p.classList.add("message"); // 
             p.innerText = message;
 
             if (message.startsWith("❌")) {
