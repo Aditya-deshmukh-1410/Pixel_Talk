@@ -1,0 +1,101 @@
+body {
+  /* background-color: #f0f2f5; */
+  /* background-color: #1a1a1a; */
+  background-image: url("/pexels.jpg");
+    background-size: cover;              
+  background-repeat: no-repeat;       
+  background-position: center center;  
+  background-attachment: fixed; 
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #4A90E2;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#message {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+#sendBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+#messages {
+  margin: 30px auto;
+  width: 500px;
+  max-height: 400px;
+  overflow-y: auto;
+  background-image: url("/whatsapp-chat-background.jpg");
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+/* All messages default */
+#messages p {
+  display: block;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #eee;
+  font-size: 15px;
+  max-width: 80%;
+  clear: both;
+  word-wrap: break-word;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#messages p.self {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+  float: right;
+  text-align: right;
+  border-bottom-right-radius: 0;
+}
+
+#messages p.other {
+  background-color: #f1f0f0;
+  float: left;
+  text-align: left;
+  border-bottom-left-radius: 0;
+}
+
+/* ✅ User online */
+#messages p.joined {
+  background-color: #e6ffe6;
+  color: green;
+  font-style: italic;
+  text-align: center;
+}
+
+/* ❌ User disconnected */
+#messages p.system {
+  background-color: #ffe6e6;
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
