@@ -4,7 +4,7 @@ PixelTalk allows users to send and receive instant messages with live user conne
 ![Node.js](https://img.shields.io/badge/Node.js-16.x-green)
 ![Express](https://img.shields.io/badge/Express.js-4.x-lightgrey)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-v4-blue)
-![License](https://img.shields.io/badge/license-MIT-yellow)
+
 
 ---
 
@@ -84,10 +84,10 @@ CHAT_APP/
 
 ## 🛠️ Tech Stack
 
-Node.js
-Express.js
-Socket.IO
-EJS (Embedded JavaScript Templates)
+Node.js,
+Express.js,
+Socket.IO,
+EJS (Embedded JavaScript Templates),
 
 ## 📌 How It Works
 
