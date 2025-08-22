@@ -114,7 +114,7 @@ The frontend is rendered using EJS templates with static assets from the public/
     http://localhost:3000
 
 
-## 🤝 Contributing
+## 🤝 Contribution 
 
 Contributions are welcome!
 
