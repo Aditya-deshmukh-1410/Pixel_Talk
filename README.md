@@ -116,7 +116,7 @@ The frontend is rendered using EJS templates with static assets from the public/
 
 ## 🤝 Contribution 
 
-Contributions are welcome!
+Contributions are welcome!!
 
 Fork the repository
 
