@@ -65,7 +65,7 @@ Problems with polling:
 
 This is why WebSockets are the backbone of **chat apps, live dashboards, online games, and collaboration tools**.  
 
----
+--
 
 ✨ And that’s exactly what powers **PixelTalk**: instead of asking for updates every few seconds, your chat messages flow instantly through a persistent WebSocket connection handled by **Socket.IO**.  
 
