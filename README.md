@@ -13,7 +13,7 @@ PixelTalk allows users to send and receive instant messages with live user conne
 - User join/leave notifications  
 - Simple and clean UI  
 - Multiple users can chat simultaneously  
-- Built with **Express** and **EJS** for server-side rendering  
+- Built with **Express** and **EJS** for server-side rendering  .
 
 ---
 
